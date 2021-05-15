@@ -1,0 +1,28 @@
+{
+  "name": "rpc-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:consumer": "node ./simple/consumer/app.js",
+    "dev:provider": "node ./simple/provider/app.js",
+    "dev": "npm run dev:provider && npm run dev:consumer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmmzmmz/rpc-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmmzmmz/rpc-node/issues"
+  },
+  "homepage": "https://github.com/zmmzmmz/rpc-node#readme",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "sofa-rpc-node": "^2.0.0"
+  }
+}
